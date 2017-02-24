@@ -1,6 +1,7 @@
 [![bower version](https://img.shields.io/bower/v/k-redirect.svg)](https://libraries.io/bower/k-redirect) 
 [![open issues](https://img.shields.io/github/issues/k4ng%2Fk-redirect.svg)](https://github.com/k4ng/k-redirect/issues) 
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/k4ng/k-redirect) 
+[![npm](https://img.shields.io/npm/v/k-redirect.svg)](https://www.npmjs.com/package/k-redirect) 
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://github.com/k4ng/k-redirect) 
 
 
 # \<k-redirect\>
