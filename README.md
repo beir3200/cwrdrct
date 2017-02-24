@@ -50,7 +50,7 @@ npm install k-redirect
 Data Attribute | Description | Default Value
 -------------- | ----------- | -------------
 to | to set the destination URL | http://www.kang-cahya.com 
-time | to set speed redirect. Unit within a millisecond.
+time | to set speed redirect. Unit within a millisecond. | 10 milliseconds
 mode | to set redirect mode "ON" or "OFF" | ON
 
 
