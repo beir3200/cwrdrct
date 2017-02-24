@@ -1,0 +1,28 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/k-redirect/k-redirect.html">
+
+<dom-module id="k-redirect-demo">
+
+    <template>
+        <k-redirect mode="{{_setMode}}"></k-redirect>
+        <button on-click="_changeMode" style="height: 100px; width: 150px; font-size: 15px;">set mode ON</button>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'k-redirect-demo',
+            properties: 
+            {
+                _setMode: {
+                    type: String,
+                    value: "off",
+                    notify: true
+                }
+            },
+            _changeMode: function(){
+                this.set("_setMode", "on");
+            }
+        });
+    </script>
+
+</dom-module>
