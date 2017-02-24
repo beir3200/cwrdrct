@@ -1,0 +1,26 @@
+{
+  "name": "k-redirect",
+  "version": "1.0.0",
+  "description": "a simple component for redirect page.",
+  "main": "k-redirect.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k4ng/k-redirect.git"
+  },
+  "keywords": [
+    "redirect",
+    "page",
+    "redirect-page",
+    "polymer",
+    "web-components"
+  ],
+  "author": "k4ng <cahyadyazin@yahoo.com> (http://www.kang-cahya.com)",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/k4ng/k-redirect/issues"
+  },
+  "homepage": "https://github.com/k4ng/k-redirect#readme"
+}

@@ -1,0 +1,49 @@
+<link rel="import" href="../polymer/polymer.html">
+        
+<!--
+@demo demo/index.html basic demo
+-->
+
+<dom-module id="k-redirect">
+    <script>
+        Polymer({
+            is: 'k-redirect',
+            properties: 
+            {
+                /* to set the destination URL */
+                to: {
+                    type: String,
+                    value: 'http://www.kang-cahya.com'
+                },
+
+                /* to set speed redirect. Unit within a millisecond. Tips:: 1000 milliseconds = 1 second */
+                time: {
+                    type: Number,
+                    value: 10
+                },
+
+                /* to set redirect mode "ON" or "OFF" */
+                mode: {
+                    type: String,
+                    value: 'ON',
+                    observer: '_run'
+                }
+            },
+
+            _run: function(mode)
+            {
+                var _self = this;
+                
+                if(mode.length === 0)
+                {
+                    _self.set('mode', 'ON');
+                }
+
+                if(mode.toUpperCase() === "ON")
+                {
+                    setTimeout(function(){ window.location=_self.to; }, _self.time);
+                }
+            },
+        });
+    </script>
+</dom-module>
