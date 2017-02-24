@@ -21,7 +21,11 @@ a simple document viewer , only for doc online. #iseng.
 -->
 ```html
 <k-redirect mode="off" to="https://github.com/k4ng/k-redirect"></k-redirect>
-<p>Remove property <code>mode="off"</code> or change value property from OFF to ON. Result, the component will automatically redirect the page to <code>https://github.com/k4ng/k-redirect</code> in 10 milliseconds (0.01 sec)</p>
+<p>
+    Remove property <code>mode="off"</code> or change value property from OFF to ON. 
+    Result, the component will automatically redirect the page to 
+    <code>https://github.com/k4ng/k-redirect</code> in 10 milliseconds (0.01 sec)
+</p>
 ```
 
 
