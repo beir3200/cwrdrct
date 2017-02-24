@@ -6,7 +6,7 @@
 
 # \<k-redirect\>
 
-a simple document viewer , only for doc online. #iseng.
+a simple component for redirect page.
 
 
 <!--
